@@ -1,6 +1,10 @@
-# BASiC : Blockchained Autonomous Social Infrastructure for Cities
+# BASIC : Blockchained Autonomous SImulator for Cities
 
-This project aims to present a tool that combine an agent-based simulator with the blockchain Ethereum. This project contains 3 parts:
+This repository contains the code for the paper:
+
+L. Marrocco, E. Castello Ferrer, A. Bucchiarone, A. Grignard, L. Alonso, K. Larson, and A. ‘Sandy’ Pentland, 2019. BASIC: towards a Blockchained Agent-basedSImulator for Cities.
+
+This paper aims to present a tool that combine an agent-based simulator with the blockchain Ethereum. This repository contains 3 parts:
 
 ##### Agent-based simulator
 The simulation represents the City of Cambridge and is made by using the [Gama Plateform](https://gama-platform.github.io/). The simulation is composed by cars and users.
@@ -17,7 +21,7 @@ The connection between the simulation and the blockchain is made by using a [Pyt
 First, clone this repesitory.
 
 ```
-$ git clone https://github.com/agrignard/BlockCar.git
+$ git clone https://github.com/LuanaMarrocco/BASIC.git
 ```
 
 You will need to have [Python](https://www.python.org/downloads/), [Docker](https://docs.docker.com/install/) and [Gama](https://gama-platform.github.io/) installed on your computer.
@@ -27,7 +31,7 @@ You will need to have [Python](https://www.python.org/downloads/), [Docker](http
 
 #### 1. Run the docker composer
 
-Go inside the docker folder and and run an Ethereum Docker cluster by running the following:
+Go inside the docker (docker-geth-network-master) folder and run an Ethereum Docker cluster by running the following:
 
 ```
 $ docker-compose up
@@ -71,6 +75,6 @@ py connection_interface.py
 ``` 
 #### 3. Run the simulation
 
-Import the CityScope Project in the Gama interface and make sure that the number of cars is equal to the number of node. When it's done, launch the experiments. Before to be able to start it, wait that each car deployed his smart contract. You will receive a confirmation message in the Python console with the address of the deployed smart contract. When the smart contracts are all deployed, you can start the simulation.
+Import the Simulator Project in the Gama interface and make sure that the number of cars is equal to the number of nodes of your blockchain network. When it's done, launch the experiments. Before to be able to start it, wait that each car deployed his smart contract. You will receive a confirmation message in the Python console with the address of the deployed smart contract. When the smart contracts are all deployed, you can start the simulation. 
  
 ---
