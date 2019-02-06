@@ -4,7 +4,7 @@ This repository contains the code for the paper:
 
 L. Marrocco, E. Castello Ferrer, A. Bucchiarone, A. Grignard, L. Alonso, K. Larson, and A. ‘Sandy’ Pentland, 2019. BASIC: towards a Blockchained Agent-basedSImulator for Cities.
 
-This paper aims to present a tool that combine an agent-based simulator with the blockchain Ethereum. This repository contains 3 parts:
+This paper aims to present a tool that combines an agent-based simulator with the blockchain Ethereum. This repository contains 3 parts:
 
 ##### Agent-based simulator
 The simulation represents the City of Cambridge and is made by using the [Gama Plateform](https://gama-platform.github.io/). The simulation is composed by cars and users.
