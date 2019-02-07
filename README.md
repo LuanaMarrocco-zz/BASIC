@@ -2,7 +2,7 @@
 
 This repository contains the code for the paper:
 
-L. Marrocco, E. Castello Ferrer, A. Bucchiarone, A. Grignard, L. Alonso, K. Larson, and A. ‘Sandy’ Pentland, 2019. BASIC: towards a Blockchained Agent-basedSImulator for Cities.
+L. Marrocco, E. Castello Ferrer, A. Bucchiarone, A. Grignard, L. Alonso, K. Larson, and A. ‘Sandy’ Pentland, 2019. BASIC: towards a Blockchained Agent-based SImulator for Cities.
 
 This paper aims to present a tool that combines an agent-based simulator with the blockchain Ethereum. This repository contains 3 parts:
 
