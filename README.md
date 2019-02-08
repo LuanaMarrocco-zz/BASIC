@@ -7,7 +7,7 @@ L. Marrocco, E. Castello Ferrer, A. Bucchiarone, A. Grignard, L. Alonso, K. Lars
 This paper aims to present a tool that combines an agent-based simulator with the blockchain Ethereum. This repository contains 3 parts:
 
 ##### Agent-based simulator
-The simulation represents the City of Cambridge and is made by using the [Gama Plateform](https://gama-platform.github.io/). The simulation is composed by cars and users.
+The simulation represents the City of Cambridge and is made by using the [Gama Plateform](https://gama-platform.github.io/). The simulation is composed by cars and users. A previous work called [CityScope](https://github.com/CityScope/CS_Simulation_GAMA) was used as starting point for this one.
 
 
 ##### Docker Container
