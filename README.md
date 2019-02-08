@@ -61,7 +61,7 @@ You need to have at least one node mining. To get attached to the `geth` JavaScr
 ```
 docker exec -it docker-geth-network-master_eth_1 geth attach ipc://root/.ethereum/devchain/geth.ipc
 ```
-Then you can `miner.start()`, and then check to see if it's mining by inspecting `web3.eth.mining`. Your node will start minning when the DAG File will be fully generated.
+Then you can `miner.start()`, and then check to see if it's mining by inspecting `web3.eth.mining`. Your node will start mining when the DAG File will be fully generated.
 
 See the [Javascript Runtime](https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console) docs for more.
 
